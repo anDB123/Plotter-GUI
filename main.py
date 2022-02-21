@@ -1,14 +1,12 @@
 import numpy as np
 import matplotlib.pyplot as plt
+from plotting_code import plot_xy_scatter
 
 x = np.random.normal(-1, 1, 500)
 y = np.random.normal(-1, 1, 500)
 
-fig, ax = plt.subplots()
-ax.scatter(x, y, 50, "0.0", lw=2)
-ax.scatter(x, y, 50, "1.0", lw=0)
-ax.scatter(x, y, 40, "C1", lw=0, alpha=0.1)
-plt.show()
 
+plot_xy_scatter(x,y,"Title is thsi", "X label", "Y Label")
 # testing for commit working!!!
-#last test I promise!
+# last test I promise!
+
