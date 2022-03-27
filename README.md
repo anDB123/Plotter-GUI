@@ -1,3 +1,3 @@
 # Plotter and GUI
-Trying Github for the first time
-This is super strange but hopefully I work it all out!
+This is a project for turning MatPlotLib into a GUI experience. 
+Customising plots is tedious in Python and I'd like to make it simpler for users to make Good Looking plots quickly.
